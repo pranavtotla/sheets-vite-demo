@@ -22,7 +22,9 @@
     "@univerjs/sheets-formula": "0.2.11",
     "@univerjs/sheets-numfmt": "0.2.11",
     "@univerjs/sheets-ui": "0.2.11",
-    "@univerjs/ui": "0.2.11"
+    "@univerjs/ui": "0.2.11",
+    "@univerjs/sheets-filter": "^0.2.7",
+    "@univerjs/sheets-filter-ui": "^0.2.7"
   },
   "devDependencies": {
     "@univerjs/vite-plugin": "^0.5.0",

@@ -38,6 +38,12 @@ dependencies:
   '@univerjs/sheets':
     specifier: 0.2.11
     version: 0.2.11(@grpc/grpc-js@1.9.14)(@univerjs/core@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-numfmt@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
+  '@univerjs/sheets-filter':
+    specifier: ^0.2.7
+    version: 0.2.11(@univerjs/core@0.2.11)(@univerjs/sheets@0.2.11)(rxjs@7.8.1)
+  '@univerjs/sheets-filter-ui':
+    specifier: ^0.2.7
+    version: 0.2.11(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/engine-render@0.2.11)(@univerjs/rpc@0.2.11)(@univerjs/sheets-filter@0.2.11)(@univerjs/sheets-ui@0.2.11)(@univerjs/sheets@0.2.11)(@univerjs/ui@0.2.11)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/sheets-formula':
     specifier: 0.2.11
     version: 0.2.11(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/docs@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(@univerjs/rpc@0.2.11)(@univerjs/sheets-ui@0.2.11)(@univerjs/sheets@0.2.11)(@univerjs/ui@0.2.11)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)

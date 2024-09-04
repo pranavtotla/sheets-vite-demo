@@ -11,6 +11,8 @@ import { UniverSheetsFormulaPlugin } from "@univerjs/sheets-formula";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
 import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
+import { UniverSheetsFilterPlugin } from "@univerjs/sheets-filter";
+import { UniverSheetsFilterUIPlugin } from "@univerjs/sheets-filter-ui";
 
 /**
  * The ability to import locales from virtual modules and automatically import styles is provided by Univer Plugins. For more details, please refer to: https://univer.ai/guides/sheet/advanced/univer-plugins.
@@ -46,6 +48,8 @@ univer.registerPlugin(UniverSheetsPlugin);
 univer.registerPlugin(UniverSheetsUIPlugin);
 univer.registerPlugin(UniverSheetsNumfmtPlugin);
 univer.registerPlugin(UniverSheetsFormulaPlugin);
+univer.registerPlugin(UniverSheetsFilterPlugin);
+univer.registerPlugin(UniverSheetsFilterUIPlugin);
 
 // create univer sheet instance
 univer.createUnit(UniverInstanceType.UNIVER_SHEET, {
